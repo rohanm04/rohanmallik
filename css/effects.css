@@ -1,6 +1,6 @@
 /* Navbar */
 #navbar ul {
-    animation: dropin 3s;
+    animation: dropin 3s 3s;
 }
 
 @keyframes dropin {
@@ -21,7 +21,7 @@
 
 /* Home */
 #typing-txt {
-    animation: typing 3s, cursor .4s step-end infinite alternate;
+    animation: typing 3s 3s, cursor .4s step-end infinite alternate;
 }
 
 @keyframes cursor {
