@@ -1,7 +1,7 @@
 /* Containers */
 .container-bottom-right {
     float: right;
-    width: 65vw;
+    width: 60vw;
     height: 80vh;
     position: absolute;
     bottom: 0;
@@ -14,6 +14,13 @@
 
 .about-container {
     margin-top: 20px;
+}
+
+.content-container {
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Shapes */

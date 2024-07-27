@@ -1,6 +1,6 @@
 /* Navbar */
 #navbar ul {
-    animation: dropin 3s 3s;
+    animation: dropin 3s;
 }
 
 @keyframes dropin {
@@ -21,7 +21,7 @@
 
 /* Home */
 #typing-txt {
-    animation: typing 3s 3s, cursor .4s step-end infinite alternate;
+    animation: typing 3s, cursor .4s step-end infinite alternate;
 }
 
 @keyframes cursor {
@@ -61,6 +61,14 @@
     }
 }
 
+/* About */
+.about-container p a {
+    transition: color 0.5s;
+}
+.about-container p a:hover {
+    color: gold;
+}
+
 /* Contact */
 input[type="submit"] {
     transition: all 0.5s;
@@ -73,10 +81,9 @@ input[type="submit"]:hover {
 
 /* Resume */
 #resume p a {
-    transition: all 0.5s;
+    transition: color 0.5s;
 }
 
 #resume p a:hover {
     color: gold;
-    letter-spacing: 3px;
 }
