@@ -1,0 +1,82 @@
+/* Navbar */
+#navbar ul {
+    animation: dropin 3s;
+}
+
+@keyframes dropin {
+    from {
+        height: 0;
+    }
+}
+
+#navbar ul li a {
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover {
+    cursor: pointer;
+    color: gold;
+    letter-spacing: 3px;
+}
+
+/* Home */
+#typing-txt {
+    animation: typing 3s, cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+/* Projects */
+.square {
+    animation: rotate 2s ease-in-out infinite 1s;
+}
+
+.outline {
+    animation: rotatealt 2s ease-in-out infinite 1s;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotatealt {
+    50% {
+        scale: 1.2;
+    }
+    100% {
+        rotate: z -180deg;
+        scale: 1;
+    }
+}
+
+/* Contact */
+input[type="submit"] {
+    transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgba(255, 215, 0, 0.7);
+}
+
+/* Resume */
+#resume p a {
+    transition: all 0.5s;
+}
+
+#resume p a:hover {
+    color: gold;
+    letter-spacing: 3px;
+}

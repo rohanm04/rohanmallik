@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Quicksand:wght@300;400&family=Raleway:wght@100;200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand';
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #F0F8FF;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+nav, header, section {
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li, p, label {
+    font-size: 30px;
+}
+
+input, textarea {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #F3E5F5;
+    border: none;
+}
